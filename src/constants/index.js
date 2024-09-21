@@ -9,27 +9,28 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    period: "September 2023 - December 2024",
-    role: "Policy Analyst Assistant",
-    company: "Memorial University - Office of Equity, Diversity, Inclusion and Anti-Racism",
-    description: `Conducted research and reported findings about EDI-AR in Memorial University policies on workplace harassment, inclusion and disability. Assisted in marketing and organizing seminars, community programs and campaigns to take feedback of the university community on various issues such as inclusion, racism and diversity.`,
-    technologies: ["Research", "Reporting", "Community Engagement"],
+    period: "June 2024 - August 2024",
+    role: "Backend Developer Intern",
+    company: "Sparrow RMS",
+    description: `Developed APIs for integration with front-end components and third-party services using ASP.NET Core. Optimized database queries to improve performance with SQL Server. Collaborated with cross-functional teams to design and implement new features.`,
+    technologies: ["ASP.NET Core", "SQL Server", "API Development"],
   },
   {
-    period: "May 2023 - August 2023",
-    role: "Special Programs Coordinator",
-    company: "Memorial University - School of Graduate Studies",
-    description: `Communicated with the migration of university's older Scholarships website data to the new website, updating changes in the already present scholarship data and communicating any changes to the university authorities. Specialized in the use of excel spreadsheets and used various excel tools to represent data in a simpler and structured manner.`,
-    technologies: ["Data Migration", "Excel", "Communication"],
+    period: "May 2024 - Present",
+    role: "Web Developer",
+    company: "Memorial University - Department of Emergency Medicine",
+    description: `Developed a responsive company profile website using Next.js and Tailwind CSS to showcase organizational information. Created a visually appealing landing page with modern front-end technologies, enhancing user engagement and accessibility.`,
+    technologies: ["Next.js", "Tailwind CSS", "Front-end Development"],
   },
   {
-    period: "April 2022 - December 2022",
-    role: "Research Assistant",
-    company: "Memorial University - Department of Psychology",
-    description: `Used DeepLabCut, a python-based machine learning software, to record and analyze the movement of mice and help us with understanding how mice perceive the physical space around them. Analyzed Data using EthovisionXT-a video tracking system for automatically recording animals and their movement by placing markers on their heads and tails, which automatically tabulates all the collected data into an Excel Spreadsheet.`,
-    technologies: ["Python", "DeepLabCut", "Data Analysis"],
+    period: "May 2024 - Present",
+    role: "Math Tutor",
+    company: "Memorial University - Math Help Centre",
+    description: `Provided tutoring support at the Math Help Centre, assisting students with Precalculus, Trigonometry, Calculus, and Linear Algebra. Facilitated understanding of complex mathematical concepts, enhancing student performance through personalized guidance and problem-solving strategies.`,
+    technologies: ["Mathematics", "Tutoring", "Problem-Solving"],
   },
 ];
+
 
 export const PROJECTS = [
   {
