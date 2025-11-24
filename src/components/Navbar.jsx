@@ -30,7 +30,7 @@ const Navbar = () => {
           href="https://github.com/K4rsh"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-300 transition-colors"
+          className="hover:text-white transition-colors"
         >
           <FaGithub />
         </a>
