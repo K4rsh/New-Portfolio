@@ -9,59 +9,82 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    period: "June 2024 - August 2024",
+    period: "May 2025 – September 2025",
+    role: "ML Research Intern",
+    company: "Memorial University – Department of Psychology",
+    description: `Developed a pupillometry-based machine learning pipeline in Python/R to classify memory intrusions. Processed millions of time-series datapoints, implemented feature engineering, and applied cross-validation to ensure reproducibility. Collaborated with faculty using an Agile workflow, presenting results and iterating on models.`,
+    technologies: ["Python", "R", "Machine Learning", "Time-Series Analysis"],
+  },
+  {
+    period: "May 2024 – April 2025",
+    role: "Web Developer",
+    company: "Memorial University – Department of Emergency Medicine",
+    description: `Developed responsive web applications using Next.js and Tailwind CSS. Integrated REST APIs and backend services, improving usability for medical research teams. Enhanced accessibility, optimized load times by ~30%, and maintained modular, testable code using Git and code reviews.`,
+    technologies: ["Next.js", "Tailwind CSS", "REST APIs", "Web Performance"],
+  },
+  {
+    period: "June 2024 – August 2024",
     role: "Backend Developer Intern",
     company: "Sparrow RMS",
-    description: `Developed APIs for integration with front-end components and third-party services using ASP.NET Core. Optimized database queries to improve performance with SQL Server. Collaborated with cross-functional teams to design and implement new features.`,
-    technologies: ["ASP.NET Core", "SQL Server", "API Development"],
+    description: `Built and maintained backend services using C# and ASP.NET Core with a focus on scalability and maintainability. Optimized SQL Server queries and indexing to improve response times. Participated in Agile ceremonies, contributed to design discussions, and conducted debugging, testing, and documentation.`,
+    technologies: ["ASP.NET Core", "C#", "SQL Server", "Backend Development"],
   },
   {
-    period: "May 2024 - Present",
-    role: "Web Developer",
-    company: "Memorial University - Department of Emergency Medicine",
-    description: `Developed a responsive company profile website using Next.js and Tailwind CSS to showcase organizational information. Created a visually appealing landing page with modern front-end technologies, enhancing user engagement and accessibility.`,
-    technologies: ["Next.js", "Tailwind CSS", "Front-end Development"],
-  },
-  {
-    period: "May 2024 - Present",
+    period: "May 2024 – Present",
     role: "Math Tutor",
-    company: "Memorial University - Math Help Centre",
-    description: `Provided tutoring support at the Math Help Centre, assisting students with Precalculus, Trigonometry, Calculus, and Linear Algebra. Facilitated understanding of complex mathematical concepts, enhancing student performance through personalized guidance and problem-solving strategies.`,
-    technologies: ["Mathematics", "Tutoring", "Problem-Solving"],
+    company: "Memorial University – Math Help Centre",
+    description: `Provided tutoring support in Precalculus, Calculus, Linear Algebra, and Trigonometry. Helped students understand complex mathematical concepts through personalized guidance and structured problem-solving strategies.`,
+    technologies: ["Mathematics", "Tutoring", "Academic Support"],
   },
 ];
+
 
 
 export const PROJECTS = [
   {
-    title: "Stock Market Emulation",
-    image: project1,
+    title: "GradeSnap – AI-Powered Exam Grading Web App",
+    image: project1, // update with your actual image
     description:
-      "Acquired proficiency in HTML5, CSS3, and JavaScript for web development. Utilized React.js, Node.js and NoSQL database such as MongoDB to build dynamic and responsive websites. Making API calls to Stocks API named 'AlphaVantage' to get the real time value of stocks and performing buy and sell actions. Used hashing techniques (using bcrypt) and JSON Web token (jwtoken) to be sure of the safety and integrity of the Players, Users and Admin.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
+      "Developing an AI-driven grading system that uses Computer Vision to scan handwritten test papers and automatically generate corrected, structured outputs. Implemented image preprocessing, contour detection, and OCR-based content extraction. Currently building a full-stack workflow to upload papers, process them, and return graded feedback.",
+    technologies: ["Python", "OpenCV", "OCR", "Computer Vision", "React/Next.js"],
   },
   {
-    title: "Machine Learning Data Analysis with Python",
-    image: project2,
+    title: "Atlantic Emergency Research Organization Website",
+    image: project2, // replace with correct image
     description:
-      "Used Python for training and evaluating machine learning models such as Bottom-Line Linear Regression and Logistic Regression. Utilized data preparation techniques such as One-Hot encoding and Normalization to pre-process and analyze datasets.",
-    technologies: ["Python", "Machine Learning", "Data Analysis"],
+      "Designed and developed a modern, mobile-first website for a medical research organization using Next.js and Tailwind CSS. Integrated backend APIs, optimized accessibility, improved performance by ~30%, and deployed analytics to track user engagement.",
+    technologies: ["Next.js", "Tailwind CSS", "JavaScript", "REST APIs"],
   },
   {
-    title: "Can't Stop Game using Java",
+    title: "Restaurant Management Database Application",
     image: project3,
     description:
-      "Collaborated on the development of the game using JFrame and JSwing frameworks. Designed and implemented graphical user interfaces (GUI) to enhance user experience. Contributed to the creation of interactive gameplay features and functionality.",
-    technologies: ["Java", "Swing"],
+      "Built a full-stack system for inventory, orders, and sales. Implemented REST APIs with Node.js and MySQL, designed efficient database schemas, and developed an interactive React frontend for staff operations. Ensured fast query performance and smooth user interactions.",
+    technologies: ["React", "Node.js", "MySQL", "REST APIs"],
   },
   {
-    title: "Object Detection for Visually Impaired using Python",
+    title: "Stock Market Emulation Platform",
     image: project4,
     description:
-      "Developed an object detection system which uses CVLib and CV2 model. Utilizes any visual camera source to evaluate and identify the objects shown. Uses GTTS (google translate to speech) and Playsound frameworks to convert the textual feedback from the model into audio (using gTTS) and play it instantly (using playsound).",
-    technologies: ["Python", "CVLib", "CV2", "GTTS", "Playsound"],
+      "Created a trading simulation app that fetches real-time market data using Alpha Vantage API. Implemented secure authentication using JWT and bcrypt. Built a responsive React interface and Node.js backend, enabling users to simulate buying and selling stocks.",
+    technologies: ["React", "Node.js", "MongoDB", "Alpha Vantage API", "JWT"],
   },
+  // {
+  //   title: "Object Detection for the Visually Impaired",
+  //   image: project5,
+  //   description:
+  //     "Developed a real-time object detection tool using CVLib and OpenCV. Integrated text-to-speech (gTTS) and Playsound to convert model predictions into immediate audio feedback, assisting visually impaired users with environmental awareness.",
+  //   technologies: ["Python", "CVLib", "OpenCV", "gTTS"],
+  // },
+  // {
+  //   title: "Machine Learning Data Analysis",
+  //   image: project6,
+  //   description:
+  //     "Performed machine learning experiments in Python using regression and classification models. Applied preprocessing techniques such as one-hot encoding and normalization to analyze datasets and evaluate model performance.",
+  //   technologies: ["Python", "Machine Learning", "Data Analysis"],
+  // }
 ];
+
 
 export const CONTACT = {
   address: "St. John's, NL",
